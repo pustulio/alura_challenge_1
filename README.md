@@ -1,4 +1,3 @@
-# alura_challenge_1
 Challenge Alura
 
 Bienvenidos y Bienvenidas a nuestro primer desafío! 
