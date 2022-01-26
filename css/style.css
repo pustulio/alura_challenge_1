@@ -88,12 +88,16 @@ header {
   letter-spacing: 7px;
 }
 
+a:visited {
+    color: #856c53; 
+}
+
 footer {
     position: relative;
     margin: 100px 0 25px 0;
     font-size: 1em;
     text-align: center;
-  }
+}
 
 #form {
   position: relative;
@@ -154,16 +158,12 @@ textarea:hover {
   color: #e2dedb;
 }
 
-a:visited {
-    color: #856c53; 
-}
-
-
 #submit {
-    width: 502px;
+    left: 50%;
+    width: 50.5%;
     
     padding: 0;
-    margin: -5px 0px 0px 0px;
+    margin: -4px 0px 0px 0px;
     
     font-family: 'Lato', sans-serif;
     font-size: 0.875em;
@@ -174,9 +174,11 @@ a:visited {
     
     border: solid 1px #b3aca7;
     border-top: none;
+    border-right: none;
   }
 
 #submitDecrypt {
+    
   position: absolute;
   left: 50%;
   width: 50.5%;
@@ -198,22 +200,20 @@ a:visited {
 }
 
 #submitCopy {
-    left: 50%;
-  width: 50.5%;
-  
-  padding: 0;
-  margin: -4px 0px 0px 0px;
-  
-  font-family: 'Lato', sans-serif;
-  font-size: 0.875em;
-  color: #b3aca7;
-  
-  outline:none;
-  cursor: pointer;
-  
-  border: solid 1px #b3aca7;
-  border-top: none;
-  border-right: none;
+    width: 502px;
+    
+    padding: 0;
+    margin: -5px 0px 0px 0px;
+    
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    color: #b3aca7;
+    
+    outline:none;
+    cursor: pointer;
+    
+    border: solid 1px #b3aca7;
+    border-top: none;
 }
 
 
