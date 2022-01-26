@@ -154,6 +154,11 @@ textarea:hover {
   color: #e2dedb;
 }
 
+a:visited {
+    color: #856c53; 
+}
+
+
 #submit {
     width: 502px;
     
